@@ -1,5 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  padding: 10px;
+  color: white;
+}
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.pass{
+  height: 60px;
+  width: 60px;
+  background-color:black;
+  margin: 3px;
+}
+.passcontainer{
+  border-style: solid;
+  border-width: 5px;
+  display: flex;
+  justify-content: center;
+  border-color: white;
+}
+.clock section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.clock p{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+p{
+  color: white;
 }
 
 .App-logo {
