@@ -8,7 +8,7 @@ var one=false;
   var three=false;
   var four=false;
   var right=false;
-  var countdate=new Date("july 30,2022").getTime();
+  var countdate=new Date("july 31,2022").getTime();
 function App() {
   const [timeday,setday]=useState();
   const [timehour,sethour]=useState();
